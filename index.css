@@ -6,3 +6,34 @@ h6 {
 .list {
   background-color: blue;
 }
+
+.box {
+  height: auto;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.box div {
+  height: 100px;
+  width: 25%;
+  border: 2px solid red;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+
+#one,
+#five {
+  background: red;
+}
+#three {
+  background: green;
+}
+
+#two,
+#four {
+  background: black;
+}
